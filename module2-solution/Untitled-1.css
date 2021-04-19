@@ -1,0 +1,71 @@
+/* CSS Document */
+body{
+			margin: 0;
+			padding: 0;
+			background:  #EEF0C2;
+		}
+		h1{
+			font-family: Chalkduster, fantasy;
+			text-align: center;
+			margin: 40px 20px 40px 20px;
+		}
+		div{
+			margin: 10px 1.3% 10px 1.3%;
+			box-sizing: border-box;
+			border: 1px solid black;
+			background: #98C098;
+		}
+		h2{
+			text-align: center;
+			margin: 0px 0px 0px 350px;
+			float: right;
+			width: 160px;
+			padding: 10px 0px 10px 0px;
+			font-family: Marker Felt, fantasy;
+			border-left: 1px solid black;
+			border-bottom: 1px solid black;
+			background: #E55759;
+		}
+		p{
+			font-family: Comic Sans MS, Comic Sans, cursive;
+			font-size: 15px;
+			padding: 50px 20px 10px 20px;
+		}
+		@media (min-width: 992px){
+		
+			div{
+				float: left;
+				width: 30%;
+			}
+			#Chicken{
+				margin-left: 2.6%;
+			}
+		}	
+		@media (min-width:768px) and (max-width: 991px){
+			#Chicken{
+				float: left;
+				width: 43.5%;
+				margin-left: 4%;
+			}
+			#Beef{
+				float: left;
+				width: 43.5%;
+				clear: right;
+				margin-left: 3%;
+			}
+			#Sushi{
+				width: 91.5%;
+				float: left;
+				margin-left: 4%;
+			}
+			}
+		@media (max-width: 767px){
+			div{
+				width: 80%;
+				margin-left: 10%;
+			}
+
+			}
+
+
+
